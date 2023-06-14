@@ -75,7 +75,7 @@ def recovery(y, gamma, M, L):
 A = mattoA(mat)
 L = AtoL(A, N)
 w1, w2, w3 = ytow(y_1000) # You can change this part with y_100 or y_500
-y1, y2, y3 = ytoy(y_1000) # You can change this part with y_100 or y_50
+y1, y2, y3 = ytoy(y_1000) # You can change this part with y_100 or y_500
 M1 = sampling_matrix(w1, N)
 M2 = sampling_matrix(w2, N)
 M3 = sampling_matrix(w3, N)
